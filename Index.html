@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <title>Wengo, le conseil de Professionnels en ligne par téléphone et email</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Des milliers de professionnels Wengo disponibles 7/7j, dans tous les domaines. Les conseillers répondent à vos questions et sont évalués par les clients.">
+    <meta name="keywords" content=""> <!-- Changement de l'attribut shortcut icon en icon-->
+    <link rel="icon" href="img/favicon.png">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background: #ccc;
+            color: #111;
+            font-family: Arial;
+            font-size: 13px;
+        }
+
+        #menu {
+            margin: 10px 15px;
+            text-align: right;
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 0;
+        }
+
+        ul li a {
+            padding: 5px;
+            color: #555;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        footer {
+            float: left;
+            margin-top: 20px;
+            color: #999;
+            font-size: 9px;
+            text-decoration: underline;
+        }
+
+        table {
+            border: 0;
+            border-collapse: separate;
+        }
+
+        #total {
+            border-collapse: collapse;
+        }
+    </style>
+
+    <div id="page">
+        <a href="#"><img src="images/logo.jpg" alt="Wengo Logo"></a>
+        <div id="menu">
+            <a href="#" title="">Login</a> <a href="#" title="" class="bold">S'enregistrer</a>
+
+            <br>
+
+            <li><a href="#" class="bold">Juridique</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Informatique</a></li>
+            <li><a href="#">Psychologie</a></li>
+            <li><a href="#">Bien-être</a></li>
+            <li><a href="#">Astro</a></li>
+
+        </div>
+
+        <h1>Comment ça marche ?</h1>
+
+        <div id="how_content">
+
+            <!-- Suppression de la mauvaise pratique de mettre plusieurs h2 -->
+            <p class="title">Trouvez votre Expert</p>
+            <p>Tous nos voyants, psychologues, avocats et autres experts sont qualifiés et leurs profils vérifiés.</p>
+
+            <p class="title">Demandez une consultation</p>
+            <p>Consultez par téléphone, chat ou e-mail - quand vous voulez, où vous voulez</p>
+
+            <br>
+
+            <p class="title">Connectez-vous directement</p>
+            <p>En quelques minutes, l'expert sélectionné vous guidera en vous proposant les outils dont vous avez besoin
+                pour vous aider à vous sentir mieux.</p>
+
+            <p class="title">Vous êtes un expert ?</p>
+            <p>Rejoignez notre brillante équipe d'experts et offrez le meilleur des services de conseils. <a href="/expert/registration">Devenez un expert </a> </p>
+
+            <p class="title">Lorem ipsum dolore sit amet</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque : </p>
+
+            <br> 
+            
+            <ul>
+                <li>Lorem</li>
+                <li>Ipsum</li>
+                <li>Dolore</li>
+                <li>Sit</li>
+            </ul>
+
+        </div>
+        <img src="images/bugz_commentcamarche.jpg">
+        <!-- Ici j'ai préféré remplacer la balise "strong" par une class car selon moi celle-ci était utilisée pour le style-->
+        <p class="bold">Derniers inscrits :</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <!-- Remplacement des balises td par th afin d'avoir un header-->
+                    <th>Aujourd'hui</th>
+                    <th>Hier</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>5</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td id="total"> Total : 20 </td>
+                </tr>
+            </tbody>
+        </table>
+        <footer>
+            2021 - MyBestPro - 75 rue d'Amsterdam - 75008 Paris
+        </footer>
+    </div> <!-- Pour des raisons d'optimisation de chargement de la page on charge le script en dernier-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+</body>
+
+</html>
